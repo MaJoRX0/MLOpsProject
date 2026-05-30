@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/c9o/PycharmProjects/MLOpsProject/mlruns/1/models/m-14be415516594349a440d924605b3197/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.0
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.12.0
+model_id: m-14be415516594349a440d924605b3197
+model_size_bytes: 182474
+model_uuid: m-14be415516594349a440d924605b3197
+prompts: null
+run_id: cda3ce1da7c54a528c6132c6389137eb
+utc_time_created: '2026-05-30 18:24:49.316234'

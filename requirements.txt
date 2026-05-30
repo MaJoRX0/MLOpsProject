@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+mlflow
+xgboost
+hyperopt
+requests
+matplotlib
+numpy
